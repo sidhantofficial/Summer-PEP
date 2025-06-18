@@ -31,30 +31,6 @@ for (let i = 0; i<name.length; i++){
     console.log(name[i]);
 }
 
-// function removeExtraSpaces(str) {
-//   // Remove leading spaces
-//   while (str[0] === ' ') {
-//     str = str.slice(1);
-//   }
-
-//   // Remove trailing spaces
-//   while (str[str.length - 1] === ' ') {
-//     str = str.slice(0, -1);
-//   }
-
-//   // Replace multiple spaces with a single space
-//   str = str.replace(/\s+/g, ' ');
-
-//   return str;
-// }
-
-// // Example usage
-// let input = "   Hello     Sidhant     how   are   you?   ";
-// let cleaned = removeExtraSpaces(input);
-
-// console.log("Original:", `"${input}"`); // "   Hello     Sidhant     how   are   you?   "
-// console.log("Cleaned:", `"${cleaned}"`); // "Hello Sidhant how are you?"
-
 
 
 
