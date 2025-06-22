@@ -15,7 +15,7 @@ useform.addEventListener('submit', (event)=>{
     ageEle.textContent = "Age: " + age;
 
     const parent = document.getElementById("result");
-    parent.innerHTML = "";
+    parent.innerHTML = "";  
     parent.appendChild(firstNameEle);
     parent.appendChild(lastNameEle);
     parent.appendChild(ageEle);
